@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<main class="page-activities">
+    <h1 class="page-title">{{ page.title | escape }}</h1>
+    <div class="content">
+        {{ content }}
+
+        <ul class="list-unstyled list-group">
+            {% for activity in site.activities %}
+            <li class="list-group-item">
+              <a class="activity-link" href="{{ activity.url | relative_url }}">
+                {{ activity.title | escape }}
+              </a>
+            </li>
+            {% endfor %}
+        </ul>
+
+    </div>
+</main>

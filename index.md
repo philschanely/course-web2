@@ -12,43 +12,37 @@ Read the [course syllabus &raquo;](/docs/syllabus.pdf)
 
 The course is broken up into "week/units" that generally run from Saturday to the following Friday:
 
-* *Saturday--Tuesday* complete the assigned readings and, if applicable, the activity noted as due by Tue.
-* *Wednesday--Friday* complete the activity indicated as due by Fri.
+* *Monday--Thursday* complete the assigned readings and, if applicable, the activity noted as due by Wed.
+* *Friday--Sunday* complete the activity indicated as due by Sat.
 
 Here is a bird's-eye-view of the course schedule. Additional details can be found in each link provided below.
 
-|               | Unit | Reading            | Due 5pm Tue     | Due 5pm Fri                                              |
-|---------------|:-----|:-------------------|:----------------|:---------------------------------------------------------|
-| Jan 9--12     | 0    | [Lesson 0][l0]     | ---             | [Essay 1][es1] \*\*\*                                    |
-| Jan 13--19    | 1    | [Lesson 1][l1]     | Exercise 1 *    | [Project Deliverable 1][pd1] \*\*\*                      |
-| Jan 20--26    | 2    | [Lesson 2][l2]     | Exercise 2 *    | [Project Deliverable 2][pd2] *                           |
-| Jan 27--Feb 2 | 3    | [Lesson 3][l3]     | Exercise 3 *    | [Project Deliverable 3][pd3] \*\*\*                      |
-| Feb 3--9      | 4    | [Lesson 4][l4]     | Exercise 4 * *(extended to Weds)* | [Project Deliverable 4][pd4]           |
-| Feb 10--16    | 5    | [Lesson 5][l5]     | Exercise 5 *    | [Project Deliverable 5][pd5] *                           |
-| Feb 17--23    | 6    | ---                | ---             | Exam 1 \*\*\* and [Essay 2][es2] \*\*\*                  |
-| Feb 24--Mar 2 | 7    | ---                | ---             | [Project Deliverable 6][pd6] *                           |
-| Mar 3--9      | x    | Spring break       | ---             | ---                                                      |
-| Mar 10--16    | 8    | [Lesson 6][l6]     | ---             | **Exercise 6** \*                                        |
-| Mar 17--23    | 9    | [Lesson 7][l7]     | *(Exercise 7 extended to Fri)* | Exercise 7 *  and [Project Deliverable 7][pd7] ** |
-| Mar 24--30    | 10   | [Lesson 8][l8]     | Exercise 8 *    | ---                                                      |
-| Mar 31--Apr 6 | x    | ---                | ---             | [Project Deliverable 8][pd8] ** *(Extended to 5pm Sat)*  |
-| Apr 7--13     | 11   | [Lesson 9][l9]     | --- *(Ex 9 moved to next week)* | [Project Deliverable 9][pd9] *           |
-| Apr 14--20    | 12   | [Lesson 10][l10]   | Exercise 9 *    | [Project Deliverable 10][pd10] *                         |
-| Apr 21--27    | 13   | ---                | ---             | Exam 2 *** and [Essay 3][es3] \*\*\*                     |
-| Apr 28--May 4 | 14   | ---                | ---             | [Project Final][pdfs] \*\*\*                             |
-
+|               | Unit | Subject            | Due 5pm Wed | Due 5pm Sat                               |
+|---------------|:-----|:-------------------|:------------|:------------------------------------------|
+| May 29--Jun 3 | 0    | ---                | ---         | ---                                       |
+| Jun 4--10     | 1    | Project 1          | Drill 1 *   | Responsive Blog: Design \*\*              |
+| Jun 11--17    | 2    | Project 1          | ---         | Responsive Blog: Markup and Type Styles * |
+| Jun 18--24    | 3    | Project 1          | ---         | Responsive Blog: Layout *                 |
+| Jun 25--Jul 1 | 4    | Project 2          | Drill 2 *   | WP Blog: Setup                            |
+| Jul 2--8      | 5    | Project 2          | ---         | WP Blog: Theme Pages                      |
+| Jul 9--15     | 6    | Project 2          | ---         | WP Blog: Theme Styles and [Paper 1][rp1]  |
+| Jul 16--22    | 7    | Project 3          | Drill 3 *   | Store site: Plan                          |
+| Jul 23--29    | 8    | Project 3          | Drill 4 *   | Store site: Design                        |
+| Jul 30--Aug 5 | 9    | Project 3          | ---         | Store site: Build                         |
+| Aug 6--12     | 10   | Project 4          | Drill 5 *   | News site: Plan                           |
+| Aug 13--19    | 11   | Project 4          | Drill 6 *   | News site: Design                         |
+| Aug 20--26    | 12   | Project 4          | ---         | News site: Build and [Paper 2][rp2]       |
 
 \*Completed in Codio. \| \*\*Completed in InVision. \| \*\*\*Completed in Moodle
 
 [l0]: /lessons/00-introduction.html
-[l1]: /lessons/01-mobile-first.html
-[l2]: /lessons/02-layout.html
-[l3]: /lessons/03-microlayouts.html
-[l4]: /lessons/04-krug.html
-[l5]: /lessons/05-wordpress-themes.html
+[l1]: /lessons/01-responsive-obile-first.html
+[l5]: /lessons/02-wordpress-themes.html
 
 [mp1]: /activities/mp01.html
 [mp2]: /activities/mp02.html
 [mp3]: /activities/mp03.html
-[mp4]: /activities/mp05.html
-[mp5]: /activities/mp04.html
+[mp4]: /activities/mp04.html
+[mp5]: /activities/mp05.html
+[rp1]: /activities/rp1-krug.html
+[rp2]: /activities/rp2-vinh.html

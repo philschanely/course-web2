@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Advanced course in HTML and CSS built originally for Cedarville University's Interactive Design program.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-ccollections:
+collections:
   lessons:
     output: true
   activities:

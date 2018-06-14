@@ -34,8 +34,7 @@ Here is a bird's-eye-view of the course schedule. Additional details can be foun
 \* Completed in Codio. \| \*\* Completed in InVision.
 
 [l0]: /lessons/00-introduction.html
-[l1]: /lessons/01-responsive-obile-first.html
-[l5]: /lessons/02-wordpress-themes.html
+[l1]: /lessons/01-responsive.html
 
 [pr1]: /activities/pr01.html
 [pr2]: /activities/mp02.html

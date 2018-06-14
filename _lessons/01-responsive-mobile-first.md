@@ -1,8 +1,8 @@
 ---
 layout: lesson
-title:  "1: Mobile First Mindset"
+title:  "1: Responsive Web Design"
 ---
-### Mobile First
+### Responsive Web Design
 
 While a little out of date, get started with Responsive Web Design by reading [my article on Medium](https://medium.com/@philschanely/introduction-responsive-web-design-d3285e47b5a3).
 

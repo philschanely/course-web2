@@ -21,9 +21,9 @@ Here is a bird's-eye-view of the course schedule. Additional details can be foun
 |---------------|:-----|:-------------------------|:------------|:------------------------------------------|
 | Jun 4--9      | 1    | [Layout Review][l0]      | Drill 1 *   | [Single Page Ad: Design][pr1] \*\*        |
 | Jun 10--16    | 2    | [Layout Review][l0]      | ---         | [Single Page Ad: Build][pr1] \*           |
-| Jun 17--23    | 3    | Responsive Web Design    | Drill 2 *   | Responsive Blog: Design \*\*              |
-| Jun 24--30    | 4    | Responsive Web Design    | ---         | Responsive Blog: Markup and Type Styles * |
-| Jul 1--7      | 5    | Responsive Web Design    | ---         | Responsive Blog: Layout *                 |
+| Jun 17--23    | 3    | [Responsive Web Design][l1] | Drill 2 *   | Responsive Blog: Design \*\*              |
+| Jun 24--30    | 4    | [Responsive Web Design][l1] | ---         | Responsive Blog: Markup and Type Styles * |
+| Jul 1--7      | 5    | [Responsive Web Design][l1] | ---         | Responsive Blog: Layout *                 |
 | Jul 8--14     | 6    | Information Design       | Drill 3 *   | News site: Plan and [Krug Paper][rp1]     |
 | Jul 15--21    | 7    | Information Design       | ---         | News site: Design and Markup              |
 | Jul 22--28    | 8    | Information Design       | ---         | News site: Build                          |

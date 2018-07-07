@@ -24,7 +24,7 @@ Here is a bird's-eye-view of the course schedule. Additional details can be foun
 | Jun 17--23    | 3    | [Responsive Web Design][l1] | Drill 2 \*  | [Responsive Blog: Design][pr2] \*\*       |
 | Jun 24--30    | 4    | [Responsive Web Design][l1] | ---         | [Responsive Blog: Markup and Type Styles][pr2] \* |
 | Jul 1--7      | 5    | [Responsive Web Design][l1] | ---         | [Responsive Blog: Responsive Layout][pr2] \* |
-| Jul 8--14     | 6    | [Mirolayouts and Microformatting][l2] | Drill 3 \*  | [E Commerce site: Design][pr3] and [Krug Paper][rp1]     |
+| Jul 8--14     | 6    | [Mirolayouts and Microformatting][l2] | ~~Drill 3 \*~~  | [E Commerce site: Design][pr3] and [Krug Paper][rp1]     |
 | Jul 15--21    | 7    | [Mirolayouts and Microformatting][l2] | ---         | [E Commerce site: Marup and Content Styles][pr3]              |
 | Jul 22--28    | 8    | [Mirolayouts and Microformatting][l2] | ---         | [E Commerce site: Build][pr3]                          |
 | Jul 29--Aug 4 | 9    | Grid Design    | Drill 4 \*  | Project 4 Site TBD |

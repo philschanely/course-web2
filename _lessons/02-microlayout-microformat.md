@@ -209,10 +209,96 @@ Let's look at this all another way:
 * `button__icon` -- an icon element within a button block. Perhaps there's also a `button__text` element nearby.
 * `button__icon--large` -- an icon element that has a modifier of "large" that is within a button block.
 
+So here is how I'd apply BEM to the markup we sketched in the last section:
+
+```HTML
+<div class="acitivity-feed">
+  <h2>Recent Activity</h2>
+  <ul class="activity-list">
+    <li class="activity">
+      <p class="activity__description">
+        Mark Smith added a new Announcement
+      </p>
+      <p class="activity__date">
+        1:00pm on Jun 6, 2018
+      </p>
+      <div class="activity__details entry entry--announcement">
+        <img class="entry__icon" src="..." />
+        <h3 class="entry__name">
+          Updates to Equipment collection
+        </h3>
+        <div class="entry__full-text">
+          ...
+        </div>
+      </div>
+      <ul class="controls">
+        <li>
+          <a href="#">
+            <img class="icon" src="..." title="View tasks" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img class="icon" src="..." title="View comments" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img class="icon" src="..." title="View time logs" />
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li class="activity">
+      <p class="activity__description">
+        Mark Smith added a new Project
+      </p>
+      <p class="activity__date">
+        12:15pm on Jun 6, 2018
+      </p>
+      <div class="activity__details entry entry--project">
+        <img class="entry__icon" src="..." />
+        <h3 class="entry__name">
+          Schanely Patio
+        </h3>
+        <dl class="entry__data">
+          <dt>Start date</dt>
+          <dd>Jun 12, 2018</dd>
+          <dt>Team</dt>
+          <dd>Jonathan Smith, Scott Jones</dd>
+        </dl>
+      </div>
+      <ul class="controls">
+        ...
+      </ul>
+    </li>
+  </ul>
+</div>
+<div class="collections">
+  <h2>Collections</h2>
+  <ul class="collection-list">
+    <li class="collection">
+      <img class="collection__icon" src="..." />
+      <span class="collection__name">
+        Announcements
+      </span>
+    </li>
+    ...
+  </ul>
+</div>
+```
+
+
+
+
+
+
+
 If I'm anticipating some common concerns I'll close with two final points:
 
 * This probably seems rather subjective... how do we decide what is a block and what is an element within a block? Short answer... its up to you! Just try to be consistent. The rule I try to follow is if the thing you're consider could stand on its own and make sense it could be a block. Vice versa, if it makes the most sense when its grouped with other things perhaps its an element that is part of a containing block. And its also quite possible for a block to contain elements and for any of those elements to also be considered blocks that could stand alone. Again, the convention here is not meant to open up prescribe a one-size-fits-all definition of what is a block or an element. That is something you and your team can flesh out from project to project. Focus for now on practicing the convention.
 * This probably seems to increase the size of your classes... and that is most often the case. But the benefits are also clear: we can be appropriately specific and we can be very consistent.
+
 
 ### Microlayouts
 
@@ -302,6 +388,6 @@ Here's the solution css that recreates the layout we want:
 
 The beauty of both CSS and this approach to microformatting is that the very same structure can be used to build the same list but laid out slightly differently such as in a more compact form:
 
-![](/images/microlayout-small-comp.png) 
+![](/images/microlayout-small-comp.png)
 
 Here we've just hidden the `.data__label`s and the `.task__relationship` element. We've also swapped out the user's image for their name in the `.task__assignee` element. So... how would you adjust the layout settings to bring this layout about?

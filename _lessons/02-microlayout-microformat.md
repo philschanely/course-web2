@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title:  "3: Microformatting and Microlayouts"
+title:  "2: Microformatting and Microlayouts"
 ---
 ### Introduction
 

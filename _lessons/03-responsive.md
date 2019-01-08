@@ -1,12 +1,13 @@
 ---
 layout: lesson
-title:  "1: Responsive Web Design"
+title:  "3: Responsive Web Design"
 ---
 ### Responsive Web Design
 
 While a little out of date, get started with Responsive Web Design by reading [my article on Medium](https://medium.com/@philschanely/introduction-responsive-web-design-d3285e47b5a3).
 
 Read [Responsive Design in 3 Steps &raquo;](http://webdesignerwall.com/tutorials/responsive-design-in-3-steps) for a sample of how this is achieved with CSS.
+
 
 ### Mobile First
 
@@ -104,6 +105,7 @@ img {
 }
 ```
 
+
 ### Overriding Process
 
 Also as you build your media query sections, most of the time you'll be overriding styles you've set elsewhere. With this in mind, it can be very helpful to work with a browser-based tool such as the developer tools available in Google Chrome. Consider this process:
@@ -112,6 +114,7 @@ Also as you build your media query sections, most of the time you'll be overridi
 2. Using the browser developer tools, determine the precise element that must be affected. If the element already has a set of styles applied to it from pre-existing styles, note the precise selector used; you'll want a matching or more specific selector. If no styles exist, then consider what simplest but precise selector will correctly target the element.
 3. Investigate exactly what is different. If the difference involves a new setting altogether, you're in luck. However, if the different involves overriding an existing setting, then be careful to precisely override the desired setting or collection of settings. Refer to your comp to help with this precision.
 4. Set up the necessary selector in your media query based on step 2 and provide new settings as identified in step 3.
+
 
 ### Reversing CSS Effects
 
@@ -125,4 +128,4 @@ When we start getting into the details of a responsive build-out what we often d
 | `clear`    | `none`                  |
 | `position` | `static`                |
 | `display:flex` | Undo this by restoring the target element's default setting such as `display: block` for block-level or `display: inline` for inline elements |
-| Other `display` settings | Make an element invisible using `display:none`. Or if you've already made it invisible and want to make it visible again use `display:inline` or `display:block` to restore its default nature. |
+| Other `display` settings | Make an element invisible using `display: none`. Or if you've already made it invisible and want to make it visible again use `display: inline` or `display: block` to restore its default nature. |

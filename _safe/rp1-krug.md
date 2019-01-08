@@ -4,7 +4,8 @@ layout: activity
 ---
 ### Krug Reading Paper
 
-For this reading paper you must read Steve Krugg's book [*Don't Make Me Think: Revisited*][krug]. See the syllabus for Reading Paper instructions. Use this 6-week schedule as a guide:
+For this reading paper you must read Steve Krugg's book [*Don't Make Me Think: Revisited*][krug]. 
+See the syllabus for Reading Paper instructions. Use this 6-week schedule as a guide:
 
 1. Read Introduction, Ch. 1--2
 2. Read Ch. 3--5

@@ -1,14 +1,12 @@
 ---
 layout: lesson
-title:  "Introduction"
+title:  "1: Reviewing Crucial Skills"
 ---
-### Welcome!
+### Reviewing Crucial Skills
 
-This course will challenge you to push your Web Design skills to the next level.
+In this first unit we will take time to review some of the crucial skills from the end of Web 1 as we apply them to a new project on a much more accelerated schedule.
 
-As we get started, keep the following as review and reference:
-
-See these lessons from Web Design I on the box model and basic layout :
+See these lessons from Web Design I on the box model and basic layout:
 
 * [Lesson 8: The Box Model](http://web1.philschanely.com/lessons/08-box-model.html)
 * [Lesson 9: CSS Layout Tools](http://web1.philschanely.com/lessons/09-css-layout.html)

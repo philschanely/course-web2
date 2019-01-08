@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title:  "3: Grid Design"
+title:  "4: Grid Design"
 ---
 ### Introduction
 

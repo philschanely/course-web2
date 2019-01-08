@@ -1,10 +1,11 @@
 ---
 layout: lesson
-title:  "2: Microformatting and Microlayouts"
+title:  "2: Best Practices"
 ---
 ### Introduction
 
 As we move on to larger or more complex website projects the need can arise to become more meticulous with how we name and organize our CSS classes. We can also become more intentional with the way to plan and layout out the more intricate details of our projects. Microformatting allows us to pay attention to the details of the data we're marking and styling and microlayouts give us a construct for how to analyze and build out smaller components of our designs. Behind it all we can employ a convention such as BEM to keep smart and sane amidst the growing complexity.
+
 
 ### Microformatting
 
@@ -163,6 +164,84 @@ In general with microformats:
 * Instead favor classes for labeling elements and selecting them with CSS.
 * Strive for a balance between marking detailed data chunks and becoming burdensome with too much markup and classes. *Simple is still best.*
 
+```html
+<div class="acitivity-feed">
+  <h2>Recent Activity</h2>
+  <ul class="activity-list">
+    <li class="activity">
+      <p class="description">
+        Mark Smith added a new Announcement
+      </p>
+      <p class="date">
+        1:00pm on Jun 6, 2018
+      </p>
+      <div class="details entry">
+        <img class="icon" src="..." />
+        <h3 class="name">
+          Updates to Equipment collection
+        </h3>
+        <div class="full-text">
+          ...
+        </div>
+      </div>
+      <ul class="controls">
+        <li>
+          <a href="#">
+            <img class="icon" src="..." title="View tasks" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img class="icon" src="..." title="View comments" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img class="icon" src="..." title="View time logs" />
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <p class="description">
+        Mark Smith added a new Project
+      </p>
+      <p class="date">
+        12:15pm on Jun 6, 2018
+      </p>
+      <div class="details">
+        <img class="icon" src="..." />
+        <h3 class="name">
+          Schanely Patio
+        </h3>
+        <dl class="data">
+          <dt>Start date</dt>
+          <dd>Jun 12, 2018</dd>
+          <dt>Team</dt>
+          <dd>Jonathan Smith, Scott Jones</dd>
+        </dl>
+      </div>
+      <ul class="controls">
+        ...
+      </ul>
+    </li>
+  </ul>
+</div>
+<div class="collections">
+  <h2>Collections</h2>
+  <ul class="collection-list">
+    <li>
+      <img class="icon" src="..." />
+      <span class="name">
+        Announcements
+      </span>
+    </li>
+    ...
+  </ul>
+</div>
+```
+
+
 ### BEM: A CSS Naming Convention
 
 With the idea of microformatting in mind you can perhaps imagine that our ability to name things well becomes more important than ever. Its also very likely that our list of named things is going to get very large and we'll want to be appropriately specific with our naming. Consider for example that our collection items have a name and our activity items also have a name. How can we intentionally distinguish these two different "names?" Likewise, we have `.icon` applied in three different contexts: collection items have icons, activity feed items have icons and activity feed control items have icons. We're going to need to be more specific if we ant to stay sane.
@@ -211,7 +290,7 @@ Let's look at this all another way:
 
 So here is how I'd apply BEM to the markup we sketched in the last section:
 
-```HTML
+```html
 <div class="acitivity-feed">
   <h2>Recent Activity</h2>
   <ul class="activity-list">
@@ -288,16 +367,91 @@ So here is how I'd apply BEM to the markup we sketched in the last section:
 </div>
 ```
 
-
-
-
-
-
-
 If I'm anticipating some common concerns I'll close with two final points:
 
 * This probably seems rather subjective... how do we decide what is a block and what is an element within a block? Short answer... its up to you! Just try to be consistent. The rule I try to follow is if the thing you're consider could stand on its own and make sense it could be a block. Vice versa, if it makes the most sense when its grouped with other things perhaps its an element that is part of a containing block. And its also quite possible for a block to contain elements and for any of those elements to also be considered blocks that could stand alone. Again, the convention here is not meant to open up prescribe a one-size-fits-all definition of what is a block or an element. That is something you and your team can flesh out from project to project. Focus for now on practicing the convention.
 * This probably seems to increase the size of your classes... and that is most often the case. But the benefits are also clear: we can be appropriately specific and we can be very consistent.
+
+
+### Organizing and Formatting
+
+Now a few words about how we organize and format our markup and styles.
+
+
+#### Formatting Rules
+
+First, let's discuss formatting in general. In both HTML and CSS we can keep our code neat and easy to read if we ensure that...
+- "child" elements or properties are each on their own lines and indented one tab to the right from the edge of the parent. Optionally, if an element has just text content we can also push this to its own line and indent it. Some even prefer to keep the text from extending beyond 60--80 characters and thus force text to wrap at that line.
+- the closing syntaxes for a "parent" should also be on their own line and aligned with the left edge of the corresponding opening syntax.
+
+More specifically, HTML markup should ensure that...
+
+- attributes inside the opening tag are separated by precisely one space.
+- favor putting a `class` attribute directly after the opening tag.
+- self-closing elements should end with `/>` rather than the looser `>`
+
+So well-formatted markup should look like this:
+
+```html
+<div class="thing">
+    <h2 class="thing__title">
+        The Amazing Thing's Title
+    </h2>
+    <ul class="thing__image-list image-list">
+        <li class="image-item">
+            <img class="image-item__image" src="#" />
+            <p class="image-item__caption">
+                Image 1 caption...
+            </p>
+        </li>
+        <li class="image-item">
+            <img class="image-item__image" src="#" />
+            <p class="image-item__caption">
+                Image 2 caption...
+            </p>
+        </li>
+        ...
+    </ul>
+</div>
+```
+
+CSS sheets should ensure that...
+
+- selectors are all aligned at the left edge of the editor
+- opening brace is precisely one space after the end of the selector and on the same line
+- properties are each on their own line and always end with `;`
+- property names are immediately followed but `:` (no space between the two) but a single space is entered after the `:` and before the property value.
+- closing brace is on its own line and aligned to the left edge of the editor.
+
+Well-formatted CSS should look like this:
+
+```css
+.thing {
+    border: 1px solid black;
+    border-radius: 4px;
+    ...
+}
+.image-list {
+    display: flex;
+}
+```
+
+
+#### Organizational Rules
+
+In terms of organizing our markup, it should already be apparent that each HTML file should contain only the conent of that particular page of our site. Inside a given file, we should simply ensure that our code is entered in the most logical source order for the content in question and use consistent conventions for class names such as BEM.
+
+CSS styles can be organized many different ways. I have found that alphabetizing them makes them easiest to explore in the future. 
+
+On top of this, it can also be helpful to separate styles for a large site into different files. Consider this convention:
+
+- In the root folder of the site create `styles.css` as the "root" stylesheet. In it, use `@import url(...)` to import all other stylesheets. As we break up our styles into separate files in the descriptions below, this single sheet will still pull them all together and can be used as the main stylesheet in each page of our site.
+- Add a `css` folder and in it place the following:
+  - `base.css` -- this will include simple tag selectors to establish basic styles for elements such as `html`, `body`, `ul`, `ol`, etc. 
+  - `type.css` -- this will include a mixture of simple tag selectors for typographic content elements such as `h1`--`h6`, `p`, `li`, `blockquote`, along with any BEM blocks that are distinctly typographical, if applicable.
+  - Other styles would apply to blocks and elements from our BEM microformatting. In a smaller site we could put all of these in a single `blocks.css` file. But in larger sites, it can be helpful to create distinct files for sets of related blocks, or even a distinct file for every block. 
+
+Overall, our aim is to break up what can become a large, unwieldy single stylesheet into much smaller, more focused files. This will make it much easier to maintain our style sheets over time.
 
 
 ### Microlayouts

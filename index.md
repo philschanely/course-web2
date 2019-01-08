@@ -17,30 +17,39 @@ The course is broken up into "week/units" that generally run from Saturday to th
 
 Here is a bird's-eye-view of the course schedule. Additional details can be found in each link provided below.
 
-|               | Unit | Subject                     | Due 5pm Wed    | Due 5pm Sat                                       |
-|---------------|:-----|:----------------------------|:---------------|:--------------------------------------------------|
-| Jun 4--9      | 1    | [Layout Review][l0]         | Drill 1 \*     | [Single Page Ad: Design][pr1] \*\*                |
-| Jun 10--16    | 2    | [Layout Review][l0]         | ---            | [Single Page Ad: Build][pr1] \*                   |
-| Jun 17--23    | 3    | [Responsive Web Design][l1] | Drill 2 \*     | [Responsive Blog: Design][pr2] \*\*               |
-| Jun 24--30    | 4    | [Responsive Web Design][l1] | ---            | [Responsive Blog: Markup and Type Styles][pr2] \* |
-| Jul 1--7      | 5    | [Responsive Web Design][l1] | ---            | [Responsive Blog: Responsive Layout][pr2] \*      |
-| Jul 8--14     | 6    | [Mirolayouts and Microformatting][l2] | ~~Drill 3 \*~~ | [E Commerce site: Design][pr3] and [Krug Paper][rp1] |
-| Jul 15--21    | 7    | [Mirolayouts and Microformatting][l2] | ---  | [E Commerce site: Marup and Content Styles][pr3]  |
-| Jul 22--28    | 8    | [Mirolayouts and Microformatting][l2] | ---  | [E Commerce site: Build][pr3]                     |
-| Jul 29--Aug 4 | 9    | [Grid Design][l3]           | ~~Drill 4 \*~~ | [Elective Site][pr4]                              |
-| Aug 5--11     | 10   | [Grid Design][l3]           | ---            | [Elective Site][pr4]                              |
-| Aug 12--18    | 11   | [Grid Design][l3]           | ---            | [Elective Site][pr4] and [Vinh Paper][rp2]        |
+|               | Unit | Online Lesson                | Readings                      | Due 5pm Tue          | Due 5pm Fri             |
+|---------------|:-----|:-----------------------------|:------------------------------|:---------------------|:------------------------|
+| Jan 8--11     | 1    | [Reviewing Crucial Skills][l1] | [Krug][krug] Introduction   | ---                  | [P1A: Design][pr1] \*\* |
+| Jan 12--18    | 1    | ---                          | Krug Ch. 1--2                 | ---                  | [P1B: Build][pr1] \*    |
+| Jan 19--25    | 2    | [Best Practices][l2]         | Krug Ch. 3--5                 | Unit 2 Drill \*      | [P2A: Design][pr2] \*\* |
+| Jan 26--Feb 1 | 2    | ---                          | Krug Ch. 6--8                 | ---                  | [P2B: WIP][pr2] \*      |
+| Feb 2--8      | 2    | ---                          | Krug Ch. 9--11                | ---                  | [P2C: Final][pr2] \*    |
+| Feb 9--15     | 3    | [Responsive Web Design][l3]  | Krug Ch. 12--13               | Unit 3 Drill \*      | [P3A: Mobile Design][pr3] \*\* |
+| Feb 16--22    | 3    | ---                          | ---                           | ---                  | [P3B: Full Design][pr3] \*\* and Krug Paper \*\*\* |
+| Feb 23--Mar 1 | 3    | ---                          | [Vinh][vinh] Ch. 1--2         | ---                  | [P3C: WIP][pr3] \*      |
+| Mar 2--8      | x    | ---                          | ---                           | *(Spring break)*     | *(Spring break)*        |
+| Mar 9--15     | 3    | ---                          | Vinh Ch. 3                    | ---                  | [P3D: Final][pr3] \*    |
+| Mar 16--22    | 4    | [Grid Design][l4]            | Vinh Ch. 4 (1st half)         | Unit 3 Drill \*\*\*  | [P4A: Planning][pr4] \*\* |
+| Mar 23--29    | 4    | ---                          | Vinh Ch. 4 (remainder), Ch. 5 | ---                  | [P4B: Design][pr4] \*\* |
+| Mar 30--Apr 5 | 4    | ---                          | ---                           | ---                  | [P4C: WIP][pr4] \* and Vinh Paper \*\*\* |
+| Apr 6--12     | 4    | ---                          | ---                           | ---                  | [P4D: Final][pr4] \*    |
+| Apr 13--19    | 5    | [Resources for Learning][l5] | ---                           | [P5A: Proposal][pr5] \*\*\* | *(Easter Break)* |
+| Apr 20--26    | 5    | ---                          | ---                           | *(Easter Break)*     | ---                     |
+| Apr 27--May 3 | 5    | ---                          | ---                           | [P5C: Final][pr5] \* | *(Course finished)*     |
 
-\* Completed in Codio. \| \*\* Completed in InVision.
+\* Completed in Codio. \| \*\* Completed in InVision. \| \*\*\* Completed in Moodle.
 
-[l0]: /lessons/00-introduction.html
-[l1]: /lessons/01-responsive.html
-[l2]: /lessons/02-microlayout-microformat.html
-[l3]: /lessons/03-grid-design.html
+[l1]: /lessons/01-review.html
+[l2]: /lessons/02-best-practices.html
+[l3]: /lessons/03-responsive.html
+[l4]: /lessons/04-grid-design.html
+[l5]: /lessons/05-resources.html
 
 [pr1]: /activities/pr01.html
 [pr2]: /activities/pr02.html
 [pr3]: /activities/pr03.html
 [pr4]: /activities/pr04.html
-[rp1]: /activities/rp1-krug.html
-[rp2]: /activities/rp2-vinh.html
+[pr5]: /activities/pr05.html
+
+[vinh]: http://0-proquest.safaribooksonline.com.library.cedarville.edu/9780321713711
+[krug]: http://0-proquest.safaribooksonline.com.library.cedarville.edu/9780133597271

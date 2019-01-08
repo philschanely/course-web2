@@ -51,5 +51,5 @@ Here is a bird's-eye-view of the course schedule. Additional details can be foun
 [pr4]: /activities/pr04.html
 [pr5]: /activities/pr05.html
 
-[vinh]: http://0-proquest.safaribooksonline.com.library.cedarville.edu/9780321713711
-[krug]: http://0-proquest.safaribooksonline.com.library.cedarville.edu/9780133597271
+[vinh]: https://learning.oreilly.com/library/view/ordering-disorder-grid/9780321713711/
+[krug]: https://learning.oreilly.com/library/view/dont-make-me/9780133597271/

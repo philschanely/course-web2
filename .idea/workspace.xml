@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cb581cf-d5e5-4414-ab94-99e0d8ec64c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_activities/_old-projects.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_activities/pr05.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_lessons/05-resources.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_activities/pr01.md" beforeDir="false" afterPath="$PROJECT_DIR$/_activities/pr01.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_activities/pr02.md" beforeDir="false" afterPath="$PROJECT_DIR$/_activities/pr02.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_activities/pr03.md" beforeDir="false" afterPath="$PROJECT_DIR$/_activities/pr03.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_activities/pr04.md" beforeDir="false" afterPath="$PROJECT_DIR$/_activities/pr04.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_activities/rp1-krug.md" beforeDir="false" afterPath="$PROJECT_DIR$/_safe/rp1-krug.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_activities/rp2-vinh.md" beforeDir="false" afterPath="$PROJECT_DIR$/_safe/rp2-vinh.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_lessons/00-introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/_lessons/01-review.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_lessons/01-responsive.md" beforeDir="false" afterPath="$PROJECT_DIR$/_lessons/03-responsive.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_lessons/02-microlayout-microformat.md" beforeDir="false" afterPath="$PROJECT_DIR$/_lessons/02-best-practices.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_lessons/03-grid-design.md" beforeDir="false" afterPath="$PROJECT_DIR$/_lessons/04-grid-design.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/syllabus.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/syllabus.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,12 +12,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="360">
-                <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+              <first_editor relative-caret-position="488">
+                <caret line="54" column="77" lean-forward="true" selection-start-line="54" selection-start-column="77" selection-end-line="54" selection-end-column="77" />
               </first_editor>
               <second_editor />
             </state>
@@ -74,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_activities/pr04.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -107,23 +93,21 @@
         <option value="$PROJECT_DIR$/_activities/pr01.md" />
         <option value="$PROJECT_DIR$/_activities/pr02.md" />
         <option value="$PROJECT_DIR$/_activities/pr03.md" />
-        <option value="$PROJECT_DIR$/index.md" />
         <option value="$PROJECT_DIR$/_activities/pr04.md" />
+        <option value="$PROJECT_DIR$/index.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1859" />
-    <option name="height" value="1177" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,6 +139,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,23 +178,24 @@
       <workItem from="1546034309629" duration="3693000" />
       <workItem from="1546102846453" duration="14459000" />
       <workItem from="1546916706994" duration="896000" />
+      <workItem from="1546962330700" duration="63000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19048000" />
+    <option name="totallyTimeSpent" value="19111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14224665" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14346765" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="File Transfer" weight="0.3828877" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -221,6 +208,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32834226" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.3828877" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -369,16 +357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_activities/pr01.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -414,6 +392,16 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="15">
             <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="488">
+            <caret line="54" column="77" lean-forward="true" selection-start-line="54" selection-start-column="77" selection-end-line="54" selection-end-column="77" />
           </first_editor>
           <second_editor />
         </state>

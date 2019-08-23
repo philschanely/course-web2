@@ -1,0 +1,21 @@
+body {
+  color: #023;
+}
+
+.gatsby-highlight-code-line {
+  margin-right: -1em;
+  margin-left: -1em;
+  padding-right: 1em;
+  padding-left: .75em;
+  display: block;
+  border-left: .25em solid #f99;
+  background-color: #feb;
+}
+
+.gatsby-highlight pre[class*="language-"].line-numbers {
+  padding-left: 2.8em;
+}
+
+.line-numbers-rows {
+  margin-top: 16px;
+}

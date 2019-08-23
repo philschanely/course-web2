@@ -1,6 +1,6 @@
 {
   "name": "course-web2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Web Design II course for Learn UXD built with Gatsby",
   "main": "index.js",
   "dependencies": {

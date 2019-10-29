@@ -31,7 +31,7 @@ Once you’ve joined a course you’ll see any available activities inside of th
 
 InVision is a web-based tool for creating prototype mockups of websites. You essentially design screen mockups using other software, upload those screens to InVision, and then add hotspots and transitions in order to simulate how the site or application should work. The result is a prototype that you can review with users in user testing, discuss with clients, and collaborate on with colleagues.
 
-Read more from the InVision website »
+Read more from the [InVision website »](https://www.invisionapp.com/)
 
 In our courses we use InVision for design review, critique, and feedback.
 
@@ -52,6 +52,14 @@ In our courses we use InVision for design review, critique, and feedback.
 3. **Use InVision with Sketch**
 
   InVision built a very neat plugin for Sketch and other tools called Craft. This enables some very helpful features and the ability to synchronize screens in a project straight from art boards in Sketch. [Learn more »](https://www.invisionapp.com/craft)
+
+  When working between Sketch and InVision you'll use Craft to keep the two in sync. Here's the overall process:
+
+    - Create a project in InVision. See project details to ensure you set up the right kind of project.
+    - Complete your design work in Sketch.
+    - Use the Craft plugin to connect to your InVision account and upload screens to the correct project. If you're doing this for the first time, make sure the Craft Manager application is running and that you've used it to install the plugin in Sketch.
+    - Back in InVision you can set up the hot spots/links and other interactive simulations on your screens from Sketch.
+    - If you make changes to the screens in Sketch be sure to upload the updates to InVision again and double-check your interactive elements in InVision. 
 
 4. **Use InVision for Design Feedback and Revisions**
 

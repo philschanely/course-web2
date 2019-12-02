@@ -1,0 +1,61 @@
+---
+type: activities
+title: "Project 5: Elective Experimental Project"
+cover: "https://source.unsplash.com/bU6JyhSI6zo"
+---
+import { Subpage, Callout } from "course-components";
+
+<Subpage slug="overall">
+
+### Introduction
+
+This final project will be an elective project in which you can choose a CSS or HTML topic beyond what has been covered in your coursework so far with which to experiment in a small demonstration project. Consider the following:
+
+* CSS Grid Module
+* CSS Animation (transitions and/or keyframe animations)
+* Relative and Absolute Positioning
+* CSS for printed pages
+* Accessibility for the web (WAI, WCAG, A11Y Project, etc.)
+
+For this project to obtain full credit, your final submission must include the following:
+
+* Must submit a short learning summary that both explains what you built, how it addresses the topic and vision you propose up front, and any reflections and what you learned more broadly through the project.
+* Must be a single web page demonstration of the topics you studied that you create in Codepen.
+* Must follow best practices discussed in the class so far as applicable as it will be evaluated for formatting, semantics, and effective technique
+* Must successfully demonstrate the topic as you describe in your learning summary.
+* Must be clean and visually aesthetic as a potential portfolio piece.
+
+</Subpage>
+<Subpage slug="a">
+
+### Deliverable A: Proposal
+
+As a preliminary step to completing this project you must first submit a proposal to articulate your plans for the project. Your proposal must include the following:
+
+1. The topic you have selected to research.
+2. Samples list of resources you will use to learn about the topic.
+3. Initial vision for what you'd like to build based on what you learn about the topic.
+
+***Submit your proposal in Moodle by the deadline.***
+
+</Subpage>
+<Subpage slug="b">
+
+### Deliverable B: Final
+
+As the final portion of the course is dedicated to this project, you are on your own to determine the schedule and pace at which you work. You are encouraged to put pressure on early to do more up front rather than leave this to the last moment at the end of the term.
+
+As mentioned above you must complete your work as a project on Codepen. Resources abound for learning how to use this tool.
+
+Also referenced above, you must submit learning summary along with your project. This summary should:
+
+* Explain what you built using the skills or knowledge you gained in relation to the topic you researched.
+* Explain how your final solution meets or modifies what you originally proposed.
+* Share any additional thoughts you have about the process of learning, as applicable:
+    * Did you face any challenges?
+    * Did you learn something beyond the scope of the topic?
+    * Did anything surprise you about the topic or the process of completing the project?
+
+***Use the submission available in Moodle to submit the sharable URL for the project you've put in Codepen along with your learning summary by the deadline.***
+
+</Subpage>

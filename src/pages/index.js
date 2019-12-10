@@ -1,16 +1,16 @@
 import React from "react";
 import { graphql } from "gatsby";
 
-import Layout from "../components/layout";
-import LockupGroup from "../components/lockup-group";
-import Lockup from "../components/lockup";
 import SEO from "../components/seo";
+import Layout from "../components/layout";
+
+import { LockupGroup, Lockup } from "course-components";
 
 import Overview from "../snippets/overview";
 
 const IndexPage = ({ data }) => {
   return (
-    <Layout>
+    <Layout active="/" title="Home">
       <SEO title="Home" />
       <main className="l-main home">
         <div className="home__intro">

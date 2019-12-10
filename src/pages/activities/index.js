@@ -1,14 +1,14 @@
 import React from "react";
 import { graphql } from "gatsby";
 
-import Layout from "../../components/layout";
 import SEO from "../../components/seo";
-import LockupGroup from "../../components/lockup-group";
-import Lockup from "../../components/lockup";
+
+import Layout from "../../components/layout";
+import { LockupGroup, Lockup } from "course-components";
 
 const ActivitiesIndexPage = ({ data }) => (
-  <Layout activePath="/activities/">
-    <SEO title="Home" />
+  <Layout activePath="/activities/" title="Activities">
+    <SEO title="Activities" />
     <main className="l-main page">
       <div className="page__lockups">
         <LockupGroup groupHeading="Activities">

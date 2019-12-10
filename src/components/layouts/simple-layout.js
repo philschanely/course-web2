@@ -2,21 +2,20 @@ import React from "react";
 import Helmet from "react-helmet";
 import Layout from "../layout";
 
+import { LayoutSimple } from "course-components";
+
 function SimpleLayout({ children, pageContext }) {
   const { title, navPath } = pageContext.frontmatter;
   let activePath = navPath || "/";
 
   return (
-    <Layout activePath={activePath}>
+    <Layout activePath={activePath} title={title}>
       <Helmet>
         <title>{title}</title>
       </Helmet>
-      <main className="l-main l-main--page">
-        <h2 className="l-page-name t-display-2">{title}</h2>
-        <div className="l-content">
-          {children}
-        </div>
-      </main>
+      <LayoutSimple title={title}>
+        {children}
+      </LayoutSimple>
     </Layout>
   );
 };

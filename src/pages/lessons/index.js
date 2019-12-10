@@ -3,15 +3,15 @@ import { graphql } from "gatsby";
 
 import Layout from "../../components/layout";
 import SEO from "../../components/seo";
-import LockupGroup from "../../components/lockup-group";
-import Lockup from "../../components/lockup";
+
+import { LockupGroup, Lockup } from "course-components";
 
 const LessonsIndexPage = ({ data }) => (
-  <Layout activePath="/lessons/">
-    <SEO title="Home" />
+  <Layout activePath="/lessons/" title="Lessons" >
+    <SEO title="Lessons" />
     <main className="l-main page">
       <div className="page__lockups">
-        <LockupGroup groupHeading="Lesson">
+        <LockupGroup groupHeading="Lessons">
           {data.lessons.edges.map(({ node }, i) => (
             <Lockup
               key={i}

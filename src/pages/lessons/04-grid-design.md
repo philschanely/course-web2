@@ -39,10 +39,6 @@ However, its likely that these provide blocks that are too large and make some g
 
 When we've settled on this base leading or subdivision then we simply set up a baseline grid at that dimension. I often find that 5, 6, 8, or 10 work well, and whenever possible work with 10 since it makes the math very simple.
 
-#### Setting up Baseline Grid in Sketch
-
-In Sketch we can use the Layout Settings (View > Canvas > Layout settings...) to establish the baseline. Turn on the "Rows" option and use the "Gutter" to specify the baseline grid size. We'll talk later about the row height setting.
-
 </Subpage>
 <Subpage slug="columns">
 
@@ -64,14 +60,6 @@ One final aspect to consider is the gutter width. The premise here is that if yo
 
 Finally, also bear in mind that when we use a gutter of 30 pixels, what we typically do is apply that evenly to the two columns affected by the gutter; so we would apply 15px to the left column and 15px to the right column. The effect then is that we usually have half of the gutter on the outermost edges of our canvas as well.
 
-#### Setting up Columns in Sketch
-
-The Layout settings in Sketch also allow us to set up columns with gutters (View > Canvas > Layout settings...). Here we can check the "Columns" option and enter the number of columns along with the total width that should be subdivided (typically the same as our canvas width). Use the offset setting if your canvas is wider than your desired column layout and want the first column set in from the left edge or centered in the canvas.
-
-Use gutter width and column width to set and adjust the balance between these settings. Sketch automatically recalculates each value based on the last setting you provided since these two are interdependent.  
-
-Finally, you can also control whether the desired gutter only applies between the columns, or is also split on the outer edges as discussed above.
-
 </Subpage>
 <Subpage slug="rows">
 
@@ -87,9 +75,13 @@ Vinh suggests that we instead use one of the best established ratios for visual 
 
 With the golden ratio rectangle as a guide, we can then figure out our "rows" by consider a) how we want to subdivide that dimension and b) by rounding to our baseline grid. So if we wanted to subdivide by thirds, our rows would be around 247px. But if our baseline grid is 10px we might either round down to 240px or up to 250px. I find 240px to be a nicer number as that can also be divided further into fourths and thirds again.
 
-#### Setting up rows in Sketch
+#### Setting up Grids in Figma
 
-This final piece can also be set up in Sketch in the Layout Settings (View > Canvas > Layout Settings...) under the "Rows" option. First enter the baseline grid size in the "gutter" box. Then figure out how many of those baseline grid rows make up the desired overall row height. In our case, 240px would have 24 baseline rows (24 &times; 10 = 240). Then subtract 1 for the actual "gutter" and you have 23 for the "Row height" box.
+In Figma we can use the Layout Grid panel visible when you click on an artbaord/frame in order to establish the baseline. Click the + (plus) button on this panel until you have three items:
+
+- Set one as a Grid and its Size setting to match your baseline grid.
+- Set another to Columns and configure them based on your grid columns plans.
+- Set the final to Rows and configure them based on your vertical rhythm units according to the approach discussed in the corresponding lessons and materials.
 
 </Subpage>
 <Subpage slug="conclusion">

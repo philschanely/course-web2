@@ -33,11 +33,10 @@ Your site must include the following:
 Follow this process:
 
 1. Thoroughly analyze the wireframes to ensure you understand the required layout overall for each page template and responsive stop.
-2. Use a new "Page" in sketch for each set of device-specific mockups and place each mockup on its own Artboard. So you should have at least three Pages in your sketch file (smartphone, tablet, desktop) each with three artboards (home page, portfolio page, article page). This will make things easier to sync with InVision. Note that for this deliverable the Mobile page is the only one that must have artwork in it.
-3. Create a Project in InVision for just the mobile device size you design named `Web2 P3 YOURLASTNAME Mobile`. Add the professor as a collaborator on each project.
-4. Synchronize your Sketch file assets with each corresponding InVision project... A Page in Sketch corresponds to a Project in InVision and each Artboard in Sketch becomes a Screen in InVision. Set up navigable hotspots to simulate the interaction between the homepage and an article page in each project.
+2. Use a new "Page" in Figma for each set of device-specific mockups and place each mockup on its own Artboard/Frame. So you should have at least three Pages in your Figma file (smartphone, tablet, desktop) each with three artboards/frames (home page, portfolio page, article page).
+3. Set up navigable hotspots to simulate the interaction between the homepage and other pages you've prototyped using Figma's prototype features.
 
-***Ensure your work is synced to InVision before the deadline***
+***Complete your work in Figma and submit the corresponding assignment by the deadline.***
 
 </Subpage>
 <Subpage slug="b">
@@ -47,18 +46,18 @@ Follow this process:
 Follow this process:
 
 1. Apply any changes to your mobile mockups based on feedback from the professor.
-2. If you don't already have them, add two additional pages in sketch: one for the "tablet" mockups and the other for the "desktop" mockups.
+2. If you don't already have them, add two additional pages in Figma: one for the "tablet" mockups and the other for the "desktop" mockups.
 3. On each page, add three artboards on which you can rearrange the elements from your mobile mockups according to the provided wireframes and your design sense. Your tablet artboards should be 768px wide (as tall as needed), and your desktop artboards should be 1200px wide (as tall as needed).
-4. Create two more projects in invision: `Web2 P3 YOURLASTNAME Tablet` and `Web2 P3 YOURLASTNAME Desktop`. Sync the artboards from each corresponding page in Sketch and add navigational hotspots to complete the prototypes. Ensure your professor is added as a collaborator on these new projects.
+4. Add navigational hotspots to complete the mockups so that each responsive set is a complete prototype.
 
-***Ensure your work is synced to InVision before the deadline***
+***Complete your work in Figma and submit the corresponding assignment by the deadline.***
 
 </Subpage>
 <Subpage slug="c">
 
 ### Deliverable C: WIP Build
 
-Apply any feedback from your professor to your design comps and ensure the latest designs are synced to InVision.
+Apply any feedback from your professor to your design comps.
 
 Then move into the provided project space in Codio and create the your home page, a sample portfolio page, and a sample blog page. Add clean, simple, semantic markup in each. Then add a central stylesheet and add at least the content styles you'll need for your build out. Focus on the settings in just your mobile mockup at this point and don't fret about any layout aspects; just type, color, and spacing.
 

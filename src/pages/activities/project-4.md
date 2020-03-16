@@ -40,14 +40,14 @@ For your grid system:
 - Now do the math you need in order to determine your column placement, golden rectangle line on desktop, and the row lines.
 - Finally consider how this grid flexes for your smaller devices.
 
-Add an artboard to your Sketch file that is 1200px wide. Use the features in Sketch to set up the Layout (grid columns, rows and baseline grid) that you've planned. Then add text boxes on the artboard the outline the following specs:
+Add an artboard/frame to your Figma file that is 1200px wide. Use the features in Figma to set up the Layout (grid columns, rows and baseline grid) that you've planned. Then add text boxes on the artboard/frame the outline the following specs:
 
-- Number of grid columns you are using and the pixel amount for the gutters. This should match what you have set up in your layout setting for the artboard as well. Example: `Columns: 12 columns; Gutters: 40px`
+- Number of grid columns you are using and the pixel amount for the gutters. This should match what you have set up in your layout setting for the artboard/frame as well. Example: `Columns: 12 columns; Gutters: 40px`
 - Baseline grid (body copy leading) in pixels. Example: `Baseline grid: 20px`
 - GRL (golden ratio line) that you determined based on Vinh's grid approach. Example: `GRL: 720px`
 - Number of rows you are subdividing from your GRL. Example: `Rows: 3 pr GRL, 240px each`
 
-***Sync your style tiles and grid system work to a new project in InVision called `Web2 P4 YOURLASTNAME Design Specs`.***
+***Complete your style tiles and grid system work in the provided Figma file and submit the corresponding assignment by the deadline.***
 
 </Subpage>
 <Subpage slug="b">
@@ -56,31 +56,22 @@ Add an artboard to your Sketch file that is 1200px wide. Use the features in Ske
 
 Follow these notes diligently to complete this deliverable.
 
-1. Create Sketch mockups for each of your page layouts (not necessarily for every page you intend to build) and at each of at least three device sizes as you did on previous projects.
+1. Create Figma mockups for each of your page layouts (not necessarily for every page you intend to build) and at each of at least three device sizes as you did on previous projects.
 2. Be sure to use fonts from the Google Fonts API and implement a grid system as discussed in this unit.
-3. Create three projects in InVision names as follows:
+3. Add hotspots that link your two pages together in each device size to create a prototype site.
 
-    * `Web2 P4 YOURLASTNAME Desktop`
-    * `Web2 P4 YOURLASTNAME Tablet`
-    * `Web2 P4 YOURLASTNAME Smartphone`
-
-    Use the corresponding settings for each device as you set up the project. This way you can synchronize each into InVision in a way that makes the prototype there authentic.
-
-4. Add your professor as a collaborator on each of your three projects.
-5. When you're finished with your comps in Sketch make a final sync to each project in InVision. Then use InVision's Build Mode to create hotspots that link your two pages together in each device size.
-
-***Ensure your work is synced to InVision by the deadline.***
+***Complete your work in Figma and submit the corresponding assignment by the deadline.***
 
 </Subpage>
 <Subpage slug="c">
 
 ### Deliverable C: WIP Build -- Markup and Mobile Content Styles
 
-Make any adjustments to your mockup based on feedback from your instructor and sync the changes to InVision.
+Make any adjustments to your mockup based on feedback from your instructor.
 
 Create the simplest, semantic markup you need in order to begin to build out your design using HTML and CSS. Follow the same process you have with previous projects for this deliverable.
 
-***Ensure your work is complete in Codio and updated in InVision (as needed) by the deadline.***
+***Ensure your work is complete in Codio and updated in Figma (as needed) by the deadline.***
 
 </Subpage>
 <Subpage slug="d">
@@ -92,14 +83,5 @@ Carrying forward with your build out, now add tile and container settings in ord
 Tidy up your work for final submission, ensuring the site is responsive and functional as a prototype site.
 
 ***Ensure your work is complete in Codio by the deadline.***
-
-</Subpage>
-<Subpage slug="resources">
-
-### Resources
-
-The following resources are coming soon:
-
-- [Style tile starter](http://web1.philschanely.com/docs/style-tile-template.sketch)
 
 </Subpage>

@@ -13,7 +13,7 @@ This project is aimed to help you continue to improve your speed and proficiency
 
 Choose a topic of interest that includes a variety of high quality images, features or highlights, and some narrative. Examples include an innovative product, a ministry or cause, and an upcoming event. Your site should act as an advertisement or "call to action" (CTA) for the topic such as "Buy now" for a product, "Take action" for a cause, or "Register" for an event.
 
-Download [this Sketch file containing wireframes](/docs/pr1-starter.sketch) you can use as guides for building out your design.
+Use the starter file provided for this project for you in Figma as a guide for building out your design.
 
 The site will use the following structure:
 
@@ -26,7 +26,7 @@ The site will use the following structure:
 #### Requirements
 
 * Build a single-page site using the deliverables below as a guide.
-* Process and deliverables must make use of required tools including Sketch, Invision, and Codio.
+* Process and deliverables must make use of required tools including Figma and Codio.
 * Apply a consistent and aesthetically pleasing look and feel to your project.
 * Final submission must include simple, semantic HTML and implement the CSS row-and-column theory covered in a previous class.
 
@@ -35,15 +35,11 @@ The site will use the following structure:
 
 ### Deliverable A: Design
 
-Use the provided wireframes to create your site concept. According to the wireframes this should entail a multi-column layout with a full-bleed masthead but that otherwise occupies a centered 1200px primary layout. Consider 12 100px columns subdividing this space and vertical blocks of 240px for vertical rhythm where practical.
+Use the wireframe starter provided in Figma to create your site concept. According to the wireframes this should entail a multi-column layout with a full-bleed masthead but that otherwise occupies a centered 1200px primary layout. Consider 12 100px columns subdividing this space and vertical blocks of 240px for vertical rhythm where practical.
 
-You must use Sketch to create your comps in a single document. Use this Layout and Grid features (View > Canvas > Layout Settings, etc.) to establish your layout and grid. Finally, be sure to use fonts from the Google Fonts API.
+You must use Figma to create your comps in a single document. Activate the grid guides on a given artboard by selecting the artboard/frame itself and then turning on the desired items under the "Layout Grid" section in the right-hand sidebar.
 
-***Submit your deliverable by the deadline by completing the following:***
-
-* Create a Project in InVision named `Web2 P1 [Lastname]`.
-* Add the professor as a collaborator on this InVision project.
-* Sync your art board to this project from Sketch using the Craft plugin.
+***Complete your work in Figma and submit the corresponding assignment by the deadline.***
 
 </Subpage>
 <Subpage slug="b">

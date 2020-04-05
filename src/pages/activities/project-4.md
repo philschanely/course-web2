@@ -14,7 +14,7 @@ This project challenges you to redesign an existing small business/e-commerce si
 * Be aesthetically pleasing and functional as a prototype site, applying principles of usability from the Krug readings. Any "unfunctional" features must be user-friendly and tidy.
 * Use appropriate techniques based on coursework to this date (semantic markup, BEM convention, efficient CSS, flexbox layout technique, etc.)
 * Implement an intentional grid system include baseline grid, rows, and columns as discussed in the Vinh text and online lesson.
-* Include at least 8 fully operational pages and placeholders for others.
+* Include 3 fully operational pages (home page, category page, product page) and a single "Content coming soon" placeholder page as a stand in for all others.
 * Be responsive from smartphone up to standard desktop with 3 designed layouts as a recommended minimum.
 
 </Subpage>
@@ -56,9 +56,8 @@ Add an artboard/frame to your Figma file that is 1200px wide. Use the features i
 
 Follow these notes diligently to complete this deliverable.
 
-1. Create Figma mockups for each of your page layouts (not necessarily for every page you intend to build) and at each of at least three device sizes as you did on previous projects.
+1. Create Figma mockups for each of your page layouts and at each of at least three device sizes as you did on previous projects. The Figma template shows these by viewport, but you may reorganize this to show each viewport for a given page together if you prefer.
 2. Be sure to use fonts from the Google Fonts API and implement a grid system as discussed in this unit.
-3. Add hotspots that link your two pages together in each device size to create a prototype site.
 
 ***Complete your work in Figma and submit the corresponding assignment by the deadline.***
 
@@ -69,7 +68,7 @@ Follow these notes diligently to complete this deliverable.
 
 Make any adjustments to your mockup based on feedback from your instructor.
 
-Create the simplest, semantic markup you need in order to begin to build out your design using HTML and CSS. Follow the same process you have with previous projects for this deliverable.
+Create the simplest, semantic markup you need in order to begin to build out your design using HTML and CSS. Begin to implement BEM carefully. Follow the same process you have with previous projects for this deliverable.
 
 ***Ensure your work is complete in Codio and updated in Figma (as needed) by the deadline.***
 
@@ -78,7 +77,7 @@ Create the simplest, semantic markup you need in order to begin to build out you
 
 ### Deliverable D: Final Build
 
-Carrying forward with your build out, now add tile and container settings in order to recreate the layout you've designed. Use your layout analysis from earlier as a guide and be sure to consider microlayouts as well.
+Carrying forward with your full build out, now add additional settings and media queries in order to build the responsive layouts you've designed. Use your layout analysis from earlier as a guide and be sure to consider microlayouts as well and be careful to implement simple BEM convention.
 
 Tidy up your work for final submission, ensuring the site is responsive and functional as a prototype site.
 
